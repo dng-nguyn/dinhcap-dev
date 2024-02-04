@@ -67,12 +67,12 @@ params:
     Title: "Hi there \U0001F44B"
     Content: |
 
-      ### I'm a student interested in selfhosting and homelab stuff!  
+      # I'm a student interested in selfhosting and homelab stuff!
 
       > - This blog is mainly used for my own documentation/deployment of difficult or undocumented projects that i find interesting, as well as random things that i might find interesting and worthwhile to write about.
 
 
-      ### My main interests:  
+      # My main interests:
 
       > - Anything computer related.
       > - Replacing major online services with my own ones (selfhosting), instead of relying on them to work with my [personal data](https://spreadprivacy.com/what-does-google-know-about-me/).
