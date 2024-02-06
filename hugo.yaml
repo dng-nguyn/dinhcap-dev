@@ -18,7 +18,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -46,21 +46,6 @@ params:
     text: "dinhcap.dev"
     #icon: /apple-touch-icon.png
     iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: /posts/
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
@@ -103,7 +88,9 @@ menu:
     - identifier: posts
       name: Posts
       url: /posts/
-      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
