@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dinhcap.dev/tags/data/</loc>
+    <lastmod>2024-02-06T13:56:44+07:00</lastmod>
+  </url><url>
     <loc>https://dinhcap.dev/</loc>
-    <lastmod>2024-02-04T16:23:28+07:00</lastmod>
+    <lastmod>2024-02-06T13:56:44+07:00</lastmod>
   </url><url>
     <loc>https://dinhcap.dev/posts/</loc>
-    <lastmod>2024-02-04T16:23:28+07:00</lastmod>
+    <lastmod>2024-02-06T13:56:44+07:00</lastmod>
   </url><url>
-    <loc>https://dinhcap.dev/posts/testing-in-production-2/</loc>
-    <lastmod>2024-02-04T16:23:28+07:00</lastmod>
+    <loc>https://dinhcap.dev/tags/raid/</loc>
+    <lastmod>2024-02-06T13:56:44+07:00</lastmod>
   </url><url>
-    <loc>https://dinhcap.dev/tags/first/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://dinhcap.dev/posts/testing-in-production/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>https://dinhcap.dev/posts/raid-setup/</loc>
+    <lastmod>2024-02-06T13:56:44+07:00</lastmod>
   </url><url>
     <loc>https://dinhcap.dev/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <lastmod>2024-02-06T13:56:44+07:00</lastmod>
   </url><url>
     <loc>https://dinhcap.dev/categories/</loc>
   </url>

@@ -11,21 +11,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Feb 2024 16:23:28 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2024 13:56:44 +0700</lastBuildDate>
     <atom:link href="https://dinhcap.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testing in production v2</title>
-      <link>https://dinhcap.dev/posts/testing-in-production-2/</link>
-      <pubDate>Sun, 04 Feb 2024 16:23:28 +0700</pubDate>
-      <guid>https://dinhcap.dev/posts/testing-in-production-2/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
-      <title>My 1st post</title>
-      <link>https://dinhcap.dev/posts/testing-in-production/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://dinhcap.dev/posts/testing-in-production/</guid>
-      <description>Desc Text.</description>
+      <title>Setting up RAID1 array &amp; migrating data.</title>
+      <link>https://dinhcap.dev/posts/raid-setup/</link>
+      <pubDate>Tue, 06 Feb 2024 13:56:44 +0700</pubDate>
+      <guid>https://dinhcap.dev/posts/raid-setup/</guid>
+      <description>Setting up RAID1 in Linux for increased data reliability.</description>
     </item>
   </channel>
 </rss>
