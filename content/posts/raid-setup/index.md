@@ -13,8 +13,8 @@ hidemeta: false
 comments: false
 description: "Setting up RAID1 in Linux for increased data reliability."
 #canonicalURL: "https://canonical.url/to/page/"
-disableShare: true
-disableHLJS: false
+#disableShare: false
+disableHLJS: true
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
@@ -24,14 +24,16 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 cover:
-    image: "hdd35.jpg" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    image: "stock/hdd.jpg" # image path/url
+    alt: "Setting up HDD RAID array." # alt text
+    #caption: "<text>" # display caption under cover
+    relative: true # when using page bundles set this to true
+params:
+  cover:
+    responsiveImages: false
 editPost:
-    URL: "https://github.com/dng-nguyn/-repo-/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/dng-nguyn/dinhcap-dev/tree/main/content"
+    Text: " Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
 I currently have two HDD drives of identical sizes (not identical in form factor and brand though), and since they are not used fully (<50% storage remaining for both), I feel like it's good to setup a RAID1 array for increased read speed and data reliability.
@@ -82,7 +84,7 @@ From here, we need to partition the drives. For the sake of simplicity, I'm goin
 
 My HDDs are /dev/sda and /dev/sdc, and one is formatted in xfs and one is ext4. I prefer xfs, so I formatted the other ext4 partition via the GParted utility.
 
-![Successful partition!](./success.png)
+![Successful partition!](./success.png#center)
 
 *Note: I later found out that this was not needed anyways, since all data is formatted after the RAID setup.*
 
@@ -92,7 +94,7 @@ mdadm --create --verbose --level=1 --metadata=1.2 --raid-devices=2 /dev/md/MyRAI
 ```
 with the `MyRAID1Array` a name of your choice.
 
-![HDD information in GParted](./hdd-info.png)
+![HDD information in GParted](./hdd-info.png#center)
 
 Here in my case, GParted shows that both drives are successfully set up in a RAID1 array, with the mount point
 being the virtual device `/dev/md127`. However, it is not accessible yet, since the drives are resyncing and restoring parity. This process can be viewed with `cat /proc/mdstat`:
@@ -130,7 +132,7 @@ mdadm --assemble --scan
 ```
 Now, with all that steps done, I can finally format my `md127` virtual device to xfs!
 
-![Success!](./format-success.png)
+![Success!](./format-success.png#center)
 
 It was late at night and I had school the day after, so I decided it's time to sleep and turned off the machine. The following day, on booting up the device, I was greeted with a failure to boot (emergency mode) and a device dependency (something, couldn't remember it) error! Though, I totally expected this as this has happened to me before.
 
