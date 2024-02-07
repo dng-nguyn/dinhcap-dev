@@ -33,6 +33,10 @@ params:
   showtoc: true
   tocopen: false
 
+  plausible:
+    enable: true
+    domain: analytics.dinhcap.dev
+
   assets:
       disableHLJS: true # to disable highlight.js
       disableFingerprinting: true
