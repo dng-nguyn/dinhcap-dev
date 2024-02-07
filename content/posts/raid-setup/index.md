@@ -10,7 +10,7 @@ showToc: true
 TocOpen: false
 draft: false ############CHANGE
 hidemeta: false
-comments: false
+comments: true
 description: "Setting up RAID1 in Linux for increased data reliability."
 #canonicalURL: "https://canonical.url/to/page/"
 #disableShare: false
@@ -138,7 +138,7 @@ It was late at night and I had school the day after, so I decided it's time to s
 
 The reason is that `/etc/fstab` is not updated, leading to the kernel trying to find a nonexistent drive from the previous setup. I only need to add an entry to the `/etc/fstab` and things should be working as normal.
 ```bash
-root@endeavour dinhcap]# blkid
+[root@endeavour dinhcap]$ blkid
 /dev/md127p1: UUID="e4fa4703-ecd0-4899-9a9e-0b62c6f95ee4" BLOCK_SIZE="4096" TYPE="xfs" PARTUUID="66e841e2-3ede-4712-8261-480cbd1bcfe1"
 ```
 From here, I can note down the UUID of the device and mount it with fstab by adding an entry to `/etc/fstab`:
