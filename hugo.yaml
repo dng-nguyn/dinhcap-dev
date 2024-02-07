@@ -35,7 +35,7 @@ params:
 
   plausible:
     enable: true
-    domain: analytics.dinhcap.dev
+    domain: https://analytics.dinhcap.dev
 
   assets:
       disableHLJS: true # to disable highlight.js
