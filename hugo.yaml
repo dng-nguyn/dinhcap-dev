@@ -2,7 +2,7 @@ baseURL: https://dinhcap.dev/
 languageCode: en-us
 defaultContentLanguage: en
 title: dinhcap's blog
-theme: ["PaperMod"]
+theme: ["PaperMod", "plausible-hugo"]
 enableRobotsTXT: true
 
 params:
