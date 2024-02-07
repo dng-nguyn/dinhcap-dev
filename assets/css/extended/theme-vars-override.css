@@ -8,7 +8,7 @@
     --radius: 8px;
     --theme: rgb(255, 255, 255);
     --entry: rgb(255, 255, 255);
-    --primary: rgb(150, 120, 10);
+    --primary: rgb(10, 10, 10);
     --secondary: rgb(108, 108, 108);
     --tertiary: rgb(214, 214, 214);
     --content: rgb(31, 31, 31);
@@ -19,8 +19,8 @@
 
 .dark {
     --theme: rgb(34, 29, 28);
-    --entry: rgb(46, 45, 40);
-    --primary: rgb(235, 192, 124);
+    --entry: rgb(50, 42, 40);
+    --primary: rgb(255, 190, 152);
     --secondary: rgb(196, 196, 197);
     --tertiary: rgb(70, 66, 62);
     --content: rgb(196, 196, 197);
