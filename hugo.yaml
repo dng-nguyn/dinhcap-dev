@@ -52,26 +52,26 @@ params:
     Title: "Hi there \U0001F44B"
     Content: |
 
-      # I'm a student interested in selfhosting and homelab stuff!
+      # I'm a student interested in self-hosting and homelab stuff!
 
       > - This blog is mainly used for my own documentation/deployment of difficult or undocumented projects that i find interesting, as well as random things that i might find interesting and worthwhile to write about.
 
 
       # My main interests:
 
+      > - Linux.
       > - Anything computer related.
-      > - Replacing major online services with my own ones (selfhosting), instead of relying on them to work with my [personal data](https://spreadprivacy.com/what-does-google-know-about-me/).
       > - Switching from [Proprietary/Closed Source](https://www.gnu.org/proprietary/proprietary.html) software to FLOSS/Open Source alternatives.
+      > - Replacing major online services with my own ones (self-hosting), instead of relying on them to work with my [personal data](https://spreadprivacy.com/what-does-google-know-about-me/).
 
-      One thing that I must be clear is that I'm not all against closed source; I pretty much use many of them, and it is impossible to elimiate all of them from my everyday's life. However, I do believe that we should protect our personal data and privacy and limit what multi-billion dollars companies know about us. It's much better to have controls over what you do from selfhosting: You're responsible for your data.
 
-      ‎
-
-      *“At the same time, we have fallen for the idea that these services are ‘free’. In reality, we pay with our data into a business model of extracting human attention.” ― Christopher Wylie*
+      To be clear: I'm not all against closed source; I pretty much use many of them, and it is impossible to elimiate all of them from my everyday's life. However, I do believe that we should protect our personal data and privacy and limit what multi-billion dollars companies know about us. It's much better to have controls over what you do from self-hosting: You're responsible for your data.
 
   socialIcons:
     - name: github
+      title: My GitHub page.
       url: "https://github.com/dng-nguyn"
+
 
   cover:
     hidden: false # hide everywhere but not in structured data
@@ -88,9 +88,14 @@ menu:
     - identifier: posts
       name: Posts
       url: /posts/
+      weight: 2
     - identifier: tags
       name: Tags
       url: /tags/
+      weight: 2
+    - name: Source code
+      url: "https://github.com/dng-nguyn/dinhcap-dev/"
+      weight: 3
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
