@@ -27,7 +27,7 @@ params:
   UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -36,11 +36,11 @@ params:
   assets:
       disableHLJS: true # to disable highlight.js
       disableFingerprinting: true
-      favicon: "favicon.ico"
-      favicon16x16: "favicon-16x16.png"
-      favicon32x32: "favicon-32x32.png"
-      apple_touch_icon: "apple_touch_icon.png"
-      safari_pinned_tab: "android-chrome-192x192.png"
+      favicon: "/assets/favicon.ico"
+      favicon16x16: "/assets/favicon-16x16.png"
+      favicon32x32: "/assets/favicon-32x32.png"
+      apple_touch_icon: "/assets/apple_touch_icon.png"
+      safari_pinned_tab: "/assets/android-chrome-192x192.png"
 
   label:
     text: "dinhcap.dev"
@@ -103,7 +103,7 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNos: true
-    style: monokai
+    style: rose-pine-moon
 
 minify:
   disableXML: true
