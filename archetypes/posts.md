@@ -22,7 +22,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: false
-UseHugoToc: true
+UseHugoToc: false
 editPost:
     URL: "https://github.com/dng-nguyn/dinhcap-dev/tree/main/content/"
     Text: " Suggest Changes" # edit text

@@ -12,7 +12,7 @@ params:
   keywords: [Blog, Portfolio]
   author: dinhcap
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/assets/server.jpg"]
   DateFormat: "2 January, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
