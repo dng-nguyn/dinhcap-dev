@@ -1,0 +1,12 @@
+.copy-code {
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: rgba(255, 255, 255, 0.75);
+    background: rgba(65, 65, 88, 0.75);
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font-size: 14px;
+    user-select: none;
+}
