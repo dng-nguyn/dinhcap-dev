@@ -35,7 +35,12 @@ params:
 
   plausible:
     enable: true
-    domain: https://analytics.dinhcap.dev
+    domain: "dinhcap.dev"
+    outbound_link: true
+    file_downloads: true
+    selfhosted_domain: "analytics.dinhcap.dev"
+    public_dashboard: true
+    gitstar: false
 
   assets:
       disableHLJS: true # to disable highlight.js
