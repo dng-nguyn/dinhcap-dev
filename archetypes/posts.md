@@ -13,10 +13,10 @@ hidemeta: false
 comments: true
 description: "Desc Text." #CHANGE
 #canonicalURL: "https://canonical.url/to/page/"
-disableShare: true
+disableShare: false
 disableHLJS: true
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
