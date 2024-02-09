@@ -38,7 +38,7 @@ params:
     domain: "dinhcap.dev"
     outbound_link: true
     file_downloads: true
-    selfhosted_domain: "dinhcap.dev/anlytcs"
+    selfhosted_domain: "/alytcs"
     public_dashboard: true
     gitstar: false
 
