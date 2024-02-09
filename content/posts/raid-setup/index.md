@@ -85,6 +85,7 @@ From here, we need to partition the drives. For the sake of simplicity, I'm goin
 My HDDs are /dev/sda and /dev/sdc, and one is formatted in xfs and one is ext4. I prefer xfs, so I formatted the other ext4 partition via the GParted utility.
 
 ![Successful partition!](./success.png#center)
+{{ < image "success.png" > }}
 
 *Note: I later found out that this was not needed anyways, since all data is formatted after the RAID setup.*
 
