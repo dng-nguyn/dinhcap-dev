@@ -72,7 +72,7 @@
                 {{- $label_text -}}
             </a>
             {{- end }}
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)" class="blink">_</a>
+            <a href="{{ "" | absLangURL }}" title="{{ $label_text }} (Alt + H)" class="blink">_</a>
             <div class="logo-switches">
                 {{- if (not site.Params.disableThemeToggle) }}
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
