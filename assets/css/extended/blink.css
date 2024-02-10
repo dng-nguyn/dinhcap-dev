@@ -8,13 +8,8 @@
 }
 
 .logo a.blink {
-    font-size: 24px;
-    font-weight: 700;
-    background: #ff98ad;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    color: #ff98ad;
     animation: blink 1.5s infinite;
+    background: unset;
+    -webkit-text-fill-color: unset;
 }
