@@ -1,0 +1,10 @@
+.logo a {
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(55deg, #FFE398 0%, #FFBE98 30%, #FFBE98 70%, #FF98B1 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

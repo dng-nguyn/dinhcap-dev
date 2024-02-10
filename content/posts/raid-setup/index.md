@@ -84,7 +84,7 @@ From here, we need to partition the drives. For the sake of simplicity, I'm goin
 
 My HDDs are /dev/sda and /dev/sdc, and one is formatted in xfs and one is ext4. I prefer xfs, so I formatted the other ext4 partition via the GParted utility.
 
-{{< figure src="successful-gparted.webp" link="successful-gparted.webp" >}}
+{{< figure src="successful-gparted.webp" link="successful-gparted.webp" alt="GParted format success." align=center >}}
 
 *Note: I later found out that this was not needed anyways, since all data is formatted after the RAID setup.*
 
@@ -94,7 +94,7 @@ mdadm --create --verbose --level=1 --metadata=1.2 --raid-devices=2 /dev/md/MyRAI
 ```
 with the `MyRAID1Array` a name of your choice.
 
-{{< figure src="hdd-info.webp" link="hdd-info.webp" >}}
+{{< figure src="hdd-info.webp" link="hdd-info.webp" alt="GParted information." align=center >}}
 
 Here in my case, GParted shows that both drives are successfully set up in a RAID1 array, with the mount point
 being the virtual device `/dev/md127`. However, it is not accessible yet, since the drives are resyncing and restoring parity. This process can be viewed with `cat /proc/mdstat`:
@@ -132,7 +132,7 @@ mdadm --assemble --scan
 ```
 Now, with all that steps done, I can finally format my `md127` virtual device to xfs!
 
-{{< figure src="format-success.webp" link="format-success.webp" >}}
+{{< figure src="format-success.webp" link="format-success.webp" alt="Successful format" align=center >}}
 
 It was late at night and I had school the day after, so I decided it's time to sleep and turned off the machine. The following day, on booting up the device, I was greeted with a failure to boot (emergency mode) and a device dependency (something, couldn't remember it) error! Though, I totally expected this as this has happened to me before.
 
