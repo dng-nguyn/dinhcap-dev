@@ -11,6 +11,7 @@ ShowReadingTime: false
 ShowPostNavLinks: false
 ShowWordCount: false
 ShowRssButtonInSectionTermList: false
+ShowBreadCrumbs: false
 UseHugoToc: false
 ---
 *Last updated: 08/02/2024*
