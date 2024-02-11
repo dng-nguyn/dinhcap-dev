@@ -30,7 +30,7 @@ cover:
     relative: true # when using page bundles set this to true
 params:
   cover:
-    responsiveImages: false
+    responsiveImages: true
 editPost:
     URL: "https://github.com/dng-nguyn/dinhcap-dev/tree/main/content"
     Text: " Suggest Changes" # edit text
