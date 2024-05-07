@@ -73,9 +73,6 @@ params:
       > - Switching from [Proprietary/Closed Source](https://www.gnu.org/proprietary/proprietary.html) software to FLOSS/Open Source alternatives.
       > - Replacing major online services with my own ones (self-hosting), instead of relying on them to work with my [personal data](https://spreadprivacy.com/what-does-google-know-about-me/).
 
-
-      To be clear: I'm not all against closed source; I pretty much use many of them, and it is impossible to elimiate all of them from my everyday's life. However, I do believe that we should protect our personal data and privacy and limit what multi-billion dollars companies know about us. It's much better to have controls over what you do from self-hosting: You're responsible for your data.
-
   socialIcons:
     - name: github
       title: My GitHub page.
@@ -110,7 +107,7 @@ pygmentsUseClasses: true
 markup:
   goldmark:
     renderer:
-      unsafe: false
+      unsafe: true
   highlight:
     noClasses: false
     anchorLineNos: false
