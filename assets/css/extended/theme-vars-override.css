@@ -36,37 +36,3 @@
 .dark.list {
     background: var(--theme);
 }
-
-/********************
-** BGN: Link icons **
-********************/
-  [class^="icon_"]::after {
-    display: inline-block;
-    text-decoration: none;
-    white-space: pre-wrap;
-    margin-left: 0.15em;
-    margin-right: 0.15em;
-    width: 1em;
-  }
-  .icon_external::after     { content: "\1F517";                                    /*  */ }
-
-  .icon_chat::after         { content: "\1F4AC";                                    /*  */ }
-  .icon_ftp::after          { content: "\2194\FE0F";                                /*  */ }
-  .icon_magnet::after       { content: "\1F9F2";                                    /*  */ }
-  .icon_mail::after         { content: "\1F4E7";                                    /*  */ }
-  .icon_remote::after       { content: "\1F4BB";                                    /*  */ }
-  .icon_tel::after          { content: "\260E\FE0F";                                /*  */ }
-
-  .icon_books::after        { content: "\1F4D6";                                    /*  */ }
-  .icon_document::after     { content: "\1F4C4";                                    /*  */ }
-  .icon_text::after         { content: "\1F4DD";                                    /*  */ }
-
-  .icon_audio::after        { content: "\1F3B5";                                    /*  */ }
-  .icon_video::after        { content: "\1F4FD\FE0F";                               /*  */ }
-
-  .icon_compressed::after   { content: "\1F5DC\FE0F";                               /*  */ }
-  .icon_diskimage::after    { content: "\1F4BD";                                    /*  */ }
-
-/********************
-** END: Link icons **
-********************/
