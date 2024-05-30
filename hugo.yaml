@@ -34,7 +34,7 @@ params:
   tocopen: false
 
   plausible:
-    enable: true
+    enable: false
     domain: "dinhcap.dev"
     outbound_link: true
     file_downloads: true
@@ -63,15 +63,9 @@ params:
 
       # I'm a student interested in self-hosting and homelab stuff!
 
-      > - This blog is mainly used for my own documentation/deployment of difficult or undocumented projects that i find interesting, as well as random things that i might find interesting and worthwhile to write about.
-
-
-      # My main interests:
-
-      > - Linux.
-      > - Anything computer related.
-      > - Switching from [Proprietary/Closed Source](https://www.gnu.org/proprietary/proprietary.html) software to FLOSS/Open Source alternatives.
-      > - Replacing major online services with my own ones (self-hosting), instead of relying on them to work with my [personal data](https://spreadprivacy.com/what-does-google-know-about-me/).
+      > - This blog is mainly used for my own documentation/deployment of difficult or undocumented projects that I find interesting, as well as random things that I might find interesting and worthwhile to write about.
+      > - My interests are Linux/Hypervisor, OSS and self-hosting. I do homelab stuff also, since it's a learning thing to have hands-on experience, I guess.
+      > - I also break my systems a lot.
 
   socialIcons:
     - name: github
