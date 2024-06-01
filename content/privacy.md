@@ -14,11 +14,11 @@ ShowRssButtonInSectionTermList: false
 ShowBreadCrumbs: false
 UseHugoToc: false
 ---
-*Last updated: 08/02/2024*
+*Last updated: 01/06/2024*
 
 This website is created with Hugo static site generator and PaperMod theme, hosted on Cloudflare Pages.
 
-This website uses a self-hosted instance of [Plausible Analytics](https://plausible.io/) to collect Anonymized, non Personal Identifying Information to track overall website traffic. See [Plausible Analytics Data Policy](https://plausible.io/data-policy). Nothing from Plausible Analytics collect can be used to track individuals, as all the data is in aggregate only. Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit. [The collected data is publicly visible here.](https://analytics.dinhcap.dev/dinhcap.dev) I don't care who you are, I just want to see the site traffic.
+This website uses a self-hosted instance of [Umami Analytics](https://umami.is/) to collect Anonymized, non Personal Identifying Information to track overall website traffic. See [Umami Analytics FAQ](https://umami.is/docs/faq). Nothing from Umami Analytics collect can be used to track individuals, as all the data is in aggregate only. Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit. [The collected data is publicly visible here.](https://umami.dinhcap.dev/share/5LM2zQOFgIiseQiT/dinhcap.dev) I don't care who you are, I just want to see the site traffic.
 
 This website also uses cookies to save your preferences. More specifically, a cookie is used to save your light/dark mode choice.
 

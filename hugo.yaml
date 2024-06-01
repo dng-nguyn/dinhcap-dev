@@ -2,7 +2,7 @@ baseURL: https://dinhcap.dev/
 languageCode: en-us
 defaultContentLanguage: en
 title: dinhcap's blog
-theme: ["PaperMod", "plausible-hugo"]
+theme: ["PaperMod"]
 enableRobotsTXT: true
 
 params:
@@ -33,15 +33,6 @@ params:
   showtoc: true
   tocopen: false
 
-  plausible:
-    enable: false
-    domain: "dinhcap.dev"
-    outbound_link: true
-    file_downloads: true
-    selfhosted_domain: "prxd-cf-alytcs.dinhcap.dev"
-    public_dashboard: true
-    gitstar: false
-
   assets:
       disableHLJS: true # to disable highlight.js
       disableFingerprinting: true
@@ -52,7 +43,7 @@ params:
       safari_pinned_tab: "/assets/android-chrome-192x192.png"
 
   label:
-    text: "~/dinhcap.dev/$"
+    text: "dinhcap.dev/$"
     #icon: /apple-touch-icon.png
     iconHeight: 35
 
