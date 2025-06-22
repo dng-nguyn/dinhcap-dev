@@ -121,6 +121,6 @@ JSON Configuration is as follow:
 ## Importing the dashboard
 
 
-The dashboard is provided as a JSON file inside the repository [or here](https://raw.githubusercontent.com/dng-nguyn/miio-airp-exporter/refs/heads/main/Xiaomi%20Air%20Purifier%204%20Lite%20Exporter-1750497227929.json) for easy importing. As previously mentioned, you may need to adjust settings appopriately for different devices.
+The dashboard is provided as a JSON file inside the repository [or on Grafana Labs](https://grafana.com/grafana/dashboards/23587-xiaomi-air-purifier-4-lite-exporter/) for easy importing. As previously mentioned, you may need to adjust settings appopriately for different devices.
 
 And that's it! You now have a functional dashboard with Air Quality Monitoring, Temperature, Humidity and Filter Life all in one spot!
